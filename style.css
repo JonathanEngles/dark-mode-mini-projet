@@ -43,6 +43,7 @@ body {
     position: absolute;
     top: -1px;
     left: -1px;
+    transition-duration: 0.3s;
 }
 
 .scale-box {
@@ -58,8 +59,8 @@ body {
 
 
 .btn-change {
-    right: -1px;
-    left: auto;
+   transition-duration: 0.3s;
+    transform: translateX(202%)
 }
 
 .switch i {
